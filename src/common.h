@@ -11,6 +11,8 @@
 //#include <netdb.h>
 //#include <arpa/inet.h>
 
+// Usage
+void print_usage(const char *name);
 
 // sockaddr_in or sockaddr_in6 address - IPv4 or IPv6
 void *get_sockaddr_addr(struct sockaddr *sa);

@@ -33,12 +33,6 @@
 
 #define LISTEN_BACKLOG 20
 
-// Usage
-void print_usage(const char *name)
-{
-    printf("Usage: %s [address] [port]\n", name);
-}
-
 // SIGCHLD handler
 void sigchld_handler(int signal)
 {

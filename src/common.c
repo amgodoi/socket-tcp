@@ -2,6 +2,14 @@
  * common.c
  */
 #include "common.h"
+#include <stdlib.h>
+
+// Usage
+void print_usage(const char *name)
+{
+    printf("Usage: %s [address] [port]\n", name);
+}
+
 
 void *get_sockaddr_addr(struct sockaddr *sa)
 {
